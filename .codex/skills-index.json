@@ -3,7 +3,7 @@
   "name": "claude-code-skills",
   "description": "Production-ready skill packages for AI agents - Marketing, Engineering, Product, C-Level, PM, and RA/QM",
   "repository": "https://github.com/alirezarezvani/claude-skills",
-  "total_skills": 191,
+  "total_skills": 192,
   "skills": [
     {
       "name": "business-growth-skills",
@@ -82,6 +82,12 @@
       "source": "../../c-level-advisor/skills/chief-ai-officer-advisor",
       "category": "c-level",
       "description": "Chief AI Officer advisory for startups: model build-vs-buy decisions (API vs fine-tune vs in-house), AI risk classification under EU AI Act + US state patchwork, AI cost economics (API-to-self-hosted breakeven), and AI team org evolution. Use when deciding whether to call an API or fine-tune, classifying AI use cases for regulatory risk, calculating when self-hosting pays off, sequencing AI hires, or when user mentions CAIO, AI strategy, model selection, foundation model, fine-tuning, EU AI Act, NIST AI RMF, AI governance, model risk, or AI economics. Strategic only \u2014 does not duplicate engineering AI/ML skills."
+    },
+    {
+      "name": "chief-customer-officer-advisor",
+      "source": "../../c-level-advisor/skills/chief-customer-officer-advisor",
+      "category": "c-level",
+      "description": "Chief Customer Officer advisory for startups: retention decomposition (gross retention vs NRR honesty, churn root-cause taxonomy), customer segmentation strategy (differential investment across tiers + ICP fit scoring), CS team coverage model (pooled vs named CSM thresholds + ratio math), and CS team org evolution (CS vs Support vs AM distinctions). Use when designing retention strategy, segmenting customers for differential investment, sizing CS team, or sequencing CS hires. Strategic only \u2014 does not duplicate engineering/business-growth tactical skills."
     },
     {
       "name": "chief-data-officer-advisor",
@@ -1159,7 +1165,7 @@
       "description": "Customer success, sales engineering, and revenue operations skills"
     },
     "c-level": {
-      "count": 31,
+      "count": 32,
       "source": "../../c-level-advisor",
       "description": "Executive leadership and advisory skills"
     },
