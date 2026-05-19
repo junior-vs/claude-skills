@@ -45,3 +45,6 @@ site/
 integrations/
 documentation/implementation/craighewitt-mattpocock-reimplementation-plan.md
 medium/
+
+# Anthropic skill-creator (cloned third-party tooling, 15M)
+eval-workspace/anthropic-skill-creator/

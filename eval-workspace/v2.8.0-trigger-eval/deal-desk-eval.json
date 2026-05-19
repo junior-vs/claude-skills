@@ -1,0 +1,91 @@
+{
+  "skill_name": "deal-desk",
+  "description": "Use when reviewing a specific inbound deal before close \u2014 when sales has asked for a discount that exceeds AE authority, when the customer has redlined the MSA, when per-deal economics (margin after discount, multi-year payment shape, indemnity exposure) need to be quantified, or when discount approval needs to be routed to a named human approver (Sales Director, VP Sales, CFO, CRO, General Counsel). Covers deal review, discount approval routing, per-deal margin scoring, deal exception handling, MSA redline triage, contract landmine detection (uncapped indemnity, MFN, perpetual license-back, missing DPA), and named-approver chain assembly. NEVER auto-approves \u2014 every output is a numeric scorecard plus a routing recommendation to a named human.",
+  "results": [
+    {
+      "query": "Sales is asking for a 32% discount on a $480K Enterprise deal with a 3-year term. They're also redlining the indemnity clause to uncap it. Should we approve, and what's the routing?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 1,
+      "runs": 1,
+      "pass": true
+    },
+    {
+      "query": "Review this MSA before we sign \u2014 there's MFN pricing, auto-renew without notification, and the DPA section is missing. Customer is EU-based.",
+      "should_trigger": true,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 1,
+      "pass": false
+    },
+    {
+      "query": "Score this deal: $120K ARR, 18% discount, NET-45 terms, mid-market customer, logo deal. What's the margin impact and who approves?",
+      "should_trigger": true,
+      "trigger_rate": 1.0,
+      "triggers": 1,
+      "runs": 1,
+      "pass": true
+    },
+    {
+      "query": "What's the redline severity on uncapped indemnity? Need the standard counter-language and who has to sign.",
+      "should_trigger": true,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 1,
+      "pass": false
+    },
+    {
+      "query": "Help me build a discount approval workflow for our deal desk \u2014 who routes what based on size + discount %?",
+      "should_trigger": true,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 1,
+      "pass": false
+    },
+    {
+      "query": "What's our pricing model \u2014 should we go usage-based or per-seat? Run a Van Westendorp analysis.",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 1,
+      "pass": true
+    },
+    {
+      "query": "Calculate our Q4 bookings forecast with cohort NRR projection",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 1,
+      "pass": true
+    },
+    {
+      "query": "Write the technical sales proposal for the demo follow-up",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 1,
+      "pass": true
+    },
+    {
+      "query": "Design our channel partner program \u2014 tier structure and revshare",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 1,
+      "pass": true
+    },
+    {
+      "query": "Hire a VP of Sales \u2014 when should we and what's the candidate profile?",
+      "should_trigger": false,
+      "trigger_rate": 0.0,
+      "triggers": 0,
+      "runs": 1,
+      "pass": true
+    }
+  ],
+  "summary": {
+    "total": 10,
+    "passed": 7,
+    "failed": 3
+  }
+}

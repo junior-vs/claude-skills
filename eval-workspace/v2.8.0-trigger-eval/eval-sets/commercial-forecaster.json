@@ -1,0 +1,42 @@
+[
+  {
+    "query": "Build me a Q4 bookings forecast with commit, best-case, and pipe-only tiers. I need the conversion assumption disclosed explicitly.",
+    "should_trigger": true
+  },
+  {
+    "query": "Project our ARR trajectory by cohort for the next 4 quarters with NRR and GRR decomposition",
+    "should_trigger": true
+  },
+  {
+    "query": "Help me figure out funnel-confidence per stage and which conversion rates we should trust vs treat as soft floors",
+    "should_trigger": true
+  },
+  {
+    "query": "We have a $4.2M pipeline. Forecast bookings for next quarter using last 4 quarters of conversion data, weighted toward recent.",
+    "should_trigger": true
+  },
+  {
+    "query": "Detect leaky cohorts before they hit the consolidated NRR number — give me the cohort-level decomposition",
+    "should_trigger": true
+  },
+  {
+    "query": "Approve this 28% discount on a $200K deal — what's the routing?",
+    "should_trigger": false
+  },
+  {
+    "query": "Design our pricing tiers and run a Van Westendorp PSM",
+    "should_trigger": false
+  },
+  {
+    "query": "Help me close the books for Q3 — revenue recognition and deferred revenue waterfall",
+    "should_trigger": false
+  },
+  {
+    "query": "Should we sign with this reseller and what tier? Their revshare ask is 35%.",
+    "should_trigger": false
+  },
+  {
+    "query": "Plan our hiring sequence for support team — Erlang-C capacity model",
+    "should_trigger": false
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "query": "Sales is asking for a 32% discount on a $480K Enterprise deal with a 3-year term. They're also redlining the indemnity clause to uncap it. Should we approve, and what's the routing?",
+    "should_trigger": true
+  },
+  {
+    "query": "Review this MSA before we sign — there's MFN pricing, auto-renew without notification, and the DPA section is missing. Customer is EU-based.",
+    "should_trigger": true
+  },
+  {
+    "query": "Score this deal: $120K ARR, 18% discount, NET-45 terms, mid-market customer, logo deal. What's the margin impact and who approves?",
+    "should_trigger": true
+  },
+  {
+    "query": "Help me build a discount approval workflow for our deal desk — who routes what based on size + discount %?",
+    "should_trigger": true
+  },
+  {
+    "query": "What's the redline severity on uncapped indemnity? Need the standard counter-language and who has to sign.",
+    "should_trigger": true
+  },
+  {
+    "query": "What's our pricing model — should we go usage-based or per-seat? Run a Van Westendorp analysis.",
+    "should_trigger": false
+  },
+  {
+    "query": "Calculate our Q4 bookings forecast with cohort NRR projection",
+    "should_trigger": false
+  },
+  {
+    "query": "Write the technical sales proposal for the demo follow-up",
+    "should_trigger": false
+  },
+  {
+    "query": "Hire a VP of Sales — when should we and what's the candidate profile?",
+    "should_trigger": false
+  },
+  {
+    "query": "Design our channel partner program — tier structure and revshare",
+    "should_trigger": false
+  }
+]

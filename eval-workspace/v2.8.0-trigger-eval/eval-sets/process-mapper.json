@@ -1,0 +1,42 @@
+[
+  {
+    "query": "We have a procurement process that takes 14 days end-to-end but only 2 hours of actual work — where's the wait time and how do I find the bottleneck?",
+    "should_trigger": true
+  },
+  {
+    "query": "Map out our employee onboarding workflow with the handoffs between IT, HR, and the hiring manager, and tell me where it's likely getting stuck",
+    "should_trigger": true
+  },
+  {
+    "query": "I want to understand our incident-response cycle time — P50 and P90 per stage, plus value-add ratio",
+    "should_trigger": true
+  },
+  {
+    "query": "BPMN diagram for our quote-to-cash process with swim lanes",
+    "should_trigger": true
+  },
+  {
+    "query": "Our customer-onboarding takes too long. Walk me through measuring the bottleneck and computing cycle time per stage.",
+    "should_trigger": true
+  },
+  {
+    "query": "Help me write a Python script that reverses a string",
+    "should_trigger": false
+  },
+  {
+    "query": "What's the React useEffect hook used for?",
+    "should_trigger": false
+  },
+  {
+    "query": "Create a sprint plan for next quarter with capacity and story points",
+    "should_trigger": false
+  },
+  {
+    "query": "Set an SLO for our API gateway with error budget burn alerts",
+    "should_trigger": false
+  },
+  {
+    "query": "Build me a marketing landing page for our new product",
+    "should_trigger": false
+  }
+]
