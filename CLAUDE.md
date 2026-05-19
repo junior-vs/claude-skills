@@ -337,6 +337,8 @@ This repository publishes skills to **ClawHub** (clawhub.com) as the distributio
    - Single-skill plugin (SKILL.md at root): `"skills": ["./"]` (array form required).
    - Plugin with `skills/` subdir: `"skills": "skills"` (no `./` prefix — see issue #686).
    - Multi-skill domain plugin (skills are subfolders at root): `"skills": ["./sub1", "./sub2", ...]` (explicit list, omit `"./"` to avoid namespace collision with the index SKILL.md).
+
+   **Enforcement:** `scripts/check_plugin_json.py --all` runs in `ci-quality-gate.yml` on every PR and blocks merge on any violation. It actively rejects the `"./"` (issue #539) and `"./skills"` (issue #686) regressions. When CC tightens its path validator again in the future, update both the validator's `_check_skills_string` rules and this section together — they must move in lockstep.
 6. **Version follows repo versioning.** ClawHub package versions must match the repo release version (currently v2.7.0+).
 
 ## Anti-Patterns to Avoid
